@@ -1,5 +1,5 @@
 # set working directory
-setwd("C:/Users/SURHUD/Desktop/Desktop/Stats/CBR/11. Pesticide Use and Cognition")
+setwd("your/working/directory")
 
 # load libraries
 library(readxl)
@@ -12,7 +12,7 @@ library(emmeans)
 library(gridExtra)
 
 # import data
-df <- read_excel("C:/Users/SURHUD/Desktop/Desktop/Stats/CBR/11. Pesticide Use and Cognition/Data.xlsx")
+df <- read_excel("your/working/directory/Data.xlsx")
 df %>% colnames()
 attach(df)
 # df <- df[!(`cdr6:cdr_interpretation_clinical` == "0.5"),]
